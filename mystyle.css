@@ -1,0 +1,27 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: lightsteelblue;
+    margin: 8px;
+    text-align: center;
+    color: darkgreen;
+    font-size: 20PX;
+}
+nav ul {
+    list-style-type: none;
+    margin: 40px;
+    padding: 60px;
+    overflow: hidden;
+    background-color:black;
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    padding: 50px 70px;
+}
+nav ul a{
+text-decoration: none;
+color:crimson
+}
+nav ul a:hover{
+    background-color: blue;
+    color: darkgoldenrod;
+}
